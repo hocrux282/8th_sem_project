@@ -33,23 +33,24 @@ const SingleProduct = () => {
                 ADD TO CART
               </button>
             </div>
-          </div>
-          <span className="divider" />
-          <div className="info-item">
-            <span className="text-bold">
-              Category:
-              <span>Headphones</span>
-            </span>
-            <span className="text-bold">
-              Share:
-              <span className="social-icons">
-                <FaFacebookF size={16} />
-                <FaTwitter size={16} />
-                <FaInstagram size={16} />
-                <FaLinkedinIn size={16} />
-                <FaPinterest size={16} />
+
+            <span className="divider" />
+            <div className="info-item">
+              <span className="text-bold">
+                Category:
+                <span>Headphones</span>
               </span>
-            </span>
+              <span className="text-bold">
+                Share:
+                <span className="social-icons">
+                  <FaFacebookF size={16} />
+                  <FaTwitter size={16} />
+                  <FaInstagram size={16} />
+                  <FaLinkedinIn size={16} />
+                  <FaPinterest size={16} />
+                </span>
+              </span>
+            </div>
           </div>
         </div>
         <RelatedProducts />
